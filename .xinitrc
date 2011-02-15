@@ -9,7 +9,6 @@
 #   sleep 1m    # Update time every minute
 #done &
 xbindkeys &
-/usr/bin/xscreensaver -no-splash &
 exec wmfs
 # exec startkde
 # exec startxfce4
