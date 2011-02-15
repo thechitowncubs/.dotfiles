@@ -7,6 +7,6 @@ PS1='[\u@\h \W]\$ '
 
 export BROWSER="chromium"
 
-if [[ -z $DISPLAY && $(tty) = /dev/tty1 ]]; then
+if [[ -z "$DISPLAY" && "$(tty)" = /dev/tty1 ]]; then
     exec startx
 fi

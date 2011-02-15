@@ -28,6 +28,6 @@ out_to_console yes
 
 TEXT
 \\#D4D4D4\${mpd_smart} \\#FFFFFF\| \
-\\#AFD687\CPU: \\#A40000\$cpu% \\#FFFFFF\| \
-\\#3465A4\${execi 300 ~/.config/wmfs/weather.sh 60047}\\#FFFFFF\| \
+\\#AFD687\CPU: \\#729FCF\$cpu% \\#FFFFFF\| \
+\\#3465A4\${execi 300 ~/.config/wmfs/weather.sh 60047}\\#FFFFFF\ | \
 \\#CE5C00\${execi 300 ~/bin/imap.py}
