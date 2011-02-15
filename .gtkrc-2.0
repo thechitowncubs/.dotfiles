@@ -1,14 +1,1 @@
-# -- THEME AUTO-WRITTEN DO NOT EDIT
-include "/usr/share/themes/Clearlooks/gtk-2.0/gtkrc"
-
-style "user-font" {
-	font_name = "Ubuntu 8"
-}
-
-widget_class "*" style "user-font"
-
-gtk-font-name="Ubuntu 8"
-
-include "/home/john/.gtkrc.mine"
-
-# -- THEME AUTO-WRITTEN DO NOT EDIT
+/home/john/.gtkrc-2.0
