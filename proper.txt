@@ -1,0 +1,14 @@
+total 20
+drwxr-xr-x  4 john users 4096 Feb 15 03:36 .
+drwx------ 68 john users 4096 Feb 15 03:29 ..
+lrwxrwxrwx  1 john users   18 Feb 15 01:28 .bashrc -> /home/john/.bashrc
+drwxr-xr-x  2 john users 4096 Feb 15 01:31 .config
+lrwxrwxrwx  1 john users   19 Feb 15 01:28 .conkyrc -> /home/john/.conkyrc
+drwxr-xr-x  8 john users 4096 Feb 15 01:36 .git
+lrwxrwxrwx  1 john users   21 Feb 15 01:32 .gitconfig -> /home/john/.gitconfig
+lrwxrwxrwx  1 john users   21 Feb 15 01:33 .gtkrc-2.0 -> /home/john/.gtkrc-2.0
+lrwxrwxrwx  1 john users   22 Feb 15 01:33 .gtkrc.mine -> /home/john/.gtkrc.mine
+-rw-r--r--  1 john users    0 Feb 15 03:36 proper.txt
+-rw-r--r--  1 john users   10 Feb 15 00:03 README
+lrwxrwxrwx  1 john users   21 Feb 15 01:32 .Xdefaults -> /home/john/.Xdefaults
+lrwxrwxrwx  1 john users   19 Feb 15 01:32 .xinitrc -> /home/john/.xinitrc
