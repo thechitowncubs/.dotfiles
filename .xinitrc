@@ -9,6 +9,7 @@
 #   sleep 1m    # Update time every minute
 #done &
 xbindkeys &
+/usr/bin/xscreensaver -no-splash &
 { sleep 5; ~/.config/wmfs/wmfs-bars.sh; } &
 exec wmfs
 # exec startkde
