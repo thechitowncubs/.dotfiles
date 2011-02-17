@@ -9,6 +9,7 @@
 #   sleep 1m    # Update time every minute
 #done &
 xbindkeys &
+status.sh &
 exec wmfs
 # exec startkde
 # exec startxfce4
