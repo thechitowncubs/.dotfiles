@@ -3,6 +3,7 @@
 [ -z "$PS1" ] && return
 
 alias ls='ls --color=auto'
+alias dpy='DISPLAY=:1 && cd ~/build/wmfs/'
 PS1='[\u@\h \W]\$ '
 
 export BROWSER="chromium"

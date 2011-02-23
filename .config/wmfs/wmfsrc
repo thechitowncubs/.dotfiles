@@ -24,6 +24,9 @@
         fg     = "#D4D4D4"
         border = true
         # selbar = false   #not worked now, see section [selbar]
+        
+        light_shade = 0.00
+        dark_shade = 0.20
 
         [systray]
                 # Enable/disable systray
@@ -109,7 +112,7 @@
         urgent_fg      = "#FFFFFF"
         # If true, number of the tag will be used for name
         name_count     = false
-        #default_name   = "new tag" # deprecated, use [default_tag] instead
+        #default_name   = "new tag # deprecated, use [default_tag] instead
         #default_layout = "tile_right" # deprecated, use [default_tag] instead
 
         # Border around the tag buttons.
@@ -138,7 +141,7 @@
         #[/tag]
 
         # clients option is *DEPRECATED* but works, see [rules] section
-        [tag] name = "1/web"  clients = {"Browser"} [/tag]
+        [tag] name = "1/web"  clients = {"Browser"} [/tag] #< deprecated option but, can fuck up browser tag, yes? ok 
         [tag] name = "2/chat"  [/tag]
         [tag] name = "3/prog"  [/tag]
         [tag] name = "4/sys"   [/tag]
@@ -160,11 +163,16 @@
         client_auto_center   = false
         border_height        = 3
         border_shadow        = true
-        border_normal        = "#2e3436"
-        border_focus         = "#214203"
-        resize_corner_normal = "#191919"
-        resize_corner_focus  = "#003366"
+        border_normal        = "#3F3E3C"
+        border_focus         = "#5f5e5c"
+        resize_corner_normal = "#3f3e3c"
+        resize_corner_focus  = "#5e5e5c"
         set_new_win_master   = false
+        net_client_get_mouse = true
+        client_tile_raise = false
+
+        light_shade = -0.50
+        dark_shade = 0.50
 #        default_open_tag     = 4 # send all client that have no tag rule in this default tag
 #        default_open_screen  = 1 # same as above but for the screen
 
@@ -216,7 +224,7 @@
                class    = "MPlayer"  # Seconf part of WM_CLASS, not needed if first part is correct
                # role = ""           # WM_WINDOW_ROLE
                screen   = 0          # Screen to use
-               tag      = 6          # Tag number of apps
+               tag      = 4          # Tag number of apps < so what was the problem? :P
                free     = true       # Set automatic free client
                max      = false      # Set automatic maximized client
        [/rule]
