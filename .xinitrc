@@ -10,6 +10,7 @@
 #done &
 xbindkeys &
 status.sh &
+setxkbmap us -option compose:ralt -option compose:caps
 exec /usr/local/bin/wmfs
 # exec startkde
 # exec startxfce4

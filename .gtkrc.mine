@@ -4,5 +4,5 @@ gtk-icon-sizes="gtk-menu=16,16:\
                 gtk-large-toolbar=16,16:\
                 gtk-dnd=16,16:\
                 gtk-dialog=16,16"
-gtk-icon-theme-name = "Tango"
+gtk-icon-theme-name = "Humanity"
 gtk-toolbar-style  =   GTK_TOOLBAR_ICONS

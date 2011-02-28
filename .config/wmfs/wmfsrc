@@ -15,7 +15,7 @@
         # true  -- default, set focus
         # false -- click go to client; including dockapps
         focus_pointer_click = true
-        status_timing      = 1     #seconds
+        status_timing      = 5    #seconds
         #conf.status_path   = "$HOME/.dotfiles/.config/wmfs/status.sh"
 [/misc]
 
@@ -25,8 +25,8 @@
         border = true
         # selbar = false   #not worked now, see section [selbar]
         
-        light_shade = 0.00
-        dark_shade = 0.20
+        light_shade = 0.05
+        dark_shade = -0.05
 
         [systray]
                 # Enable/disable systray
@@ -168,11 +168,11 @@
         resize_corner_normal = "#3f3e3c"
         resize_corner_focus  = "#5e5e5c"
         set_new_win_master   = false
-        net_client_get_mouse = true
+        new_client_get_mouse = true
         client_tile_raise = false
 
-        light_shade = -0.50
-        dark_shade = 0.50
+        light_shade = -0.05
+        dark_shade = -0.05
 #        default_open_tag     = 4 # send all client that have no tag rule in this default tag
 #        default_open_screen  = 1 # same as above but for the screen
 
@@ -224,7 +224,7 @@
                class    = "MPlayer"  # Seconf part of WM_CLASS, not needed if first part is correct
                # role = ""           # WM_WINDOW_ROLE
                screen   = 0          # Screen to use
-               tag      = 4          # Tag number of apps < so what was the problem? :P
+               tag      = 6          # Tag number of apps < so what was the problem? :P
                free     = true       # Set automatic free client
                max      = false      # Set automatic maximized client
        [/rule]
