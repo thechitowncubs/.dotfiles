@@ -6,3 +6,17 @@ gtk-icon-sizes="gtk-menu=16,16:\
                 gtk-dialog=16,16"
 gtk-icon-theme-name = "Humanity"
 gtk-toolbar-style  =   GTK_TOOLBAR_ICONS
+
+style "default-style"
+{
+GtkWidget::link-color = "#acee00"
+GtkWidget::visited-link-color = "#ffc100"
+GtkHTML::alink_color = "#acee00"
+GtkHTML::link_color = "#acee00"
+GtkHTML::vlink_color = "#ffc100"
+GnomeHref::link_color = "#acee00"
+GtkIMHtml::hyperlink-color = "#acee00"
+GtkIMHtml::hyperlink-prelight-color = "#ffc100"
+}
+
+class "GtkWidget" style "default-style"
