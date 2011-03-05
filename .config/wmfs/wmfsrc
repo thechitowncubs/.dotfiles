@@ -7,10 +7,12 @@
 # @include "~/.config/wmfs/menu-wmfsrc"
 
 [misc]
-        font               = "Ubuntu-8"
+        font               = "Liberation Sans-8"
         raisefocus         = false
         focus_follow_mouse = true
         opacity            = 255
+        #ONE SHADOW on ALL ELEMENTS
+        one_shadow         = true
         # focus_pointer_click: click on unfocused client area:
         # true  -- default, set focus
         # false -- click go to client; including dockapps
@@ -25,7 +27,7 @@
         border = true
         # selbar = false   #not worked now, see section [selbar]
         
-        light_shade = 0.05
+        light_shade = 0.00
         dark_shade = -0.05
 
         [systray]
@@ -171,7 +173,7 @@
         new_client_get_mouse = true
         client_tile_raise = false
 
-        light_shade = -0.05
+        light_shade = 0.00
         dark_shade = -0.05
 #        default_open_tag     = 4 # send all client that have no tag rule in this default tag
 #        default_open_screen  = 1 # same as above but for the screen
