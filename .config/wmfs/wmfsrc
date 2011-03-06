@@ -106,8 +106,8 @@
 
         tag_round      = false
         tag_auto_prev  = true
-        occupied_bg    = "#34362E"
-        occupied_fg    = "#D4D4D4"
+        occupied_bg    = "#606060"
+        occupied_fg    = "#FFFFFF"
         sel_fg         = "#FFFFFF"
         sel_bg         = "#4A8720"
         urgent_bg      = "#CC0000"
