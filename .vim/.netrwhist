@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/media/www/dadis/dadisblog/style'
+let g:netrw_dirhist_2='/home/john/.vim'
+let g:netrw_dirhist_3='/media/www'
+let g:netrw_dirhist_4='/home/john/.weechat'
+let g:netrw_dirhist_5='/home/john/.config/hftirc'
+let g:netrw_dirhist_6='/home/john/dev/HFTIrc/src/parse'
