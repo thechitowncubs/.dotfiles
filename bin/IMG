@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /media/www/files/screens/
+newest_file=$(ls -1tr | tail -n 1)
+newest_file=${newest_file/ /%20}
+
+echo -n "http://dadis.dyndns.org/files/screens/$newest_file" | xsel

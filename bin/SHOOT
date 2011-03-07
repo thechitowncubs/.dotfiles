@@ -1,0 +1,4 @@
+#!/bin/dash
+
+filename=$(date +'%Y.%m.%d-%H:%M:%S')
+exec scrot "/media/www/files/screens/$filename.png"
