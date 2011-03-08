@@ -21,6 +21,7 @@ URxvt.underlinecolor: #999999
 URxvt.cutchars: "()*,<>[]{}|'"
 URxvt.print-pipe: cat >/tmp/xxx
 URxvt.visualBell: false
+URxvt*font: -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 
 ! --[ URxvt - URL/Clipboard Handling ]----------------------
 URxvt.perl-ext-common: default,url-select,keyboard-select

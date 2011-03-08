@@ -7,7 +7,7 @@
 # @include "~/.config/wmfs/menu-wmfsrc"
 
 [misc]
-        font               = "Liberation Sans-8"
+        font               = "Ubuntu-8"
         raisefocus         = false
         focus_follow_mouse = true
         opacity            = 255
