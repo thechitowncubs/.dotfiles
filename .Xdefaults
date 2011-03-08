@@ -32,7 +32,7 @@ URxvt.keysym.M-s:      perl:keyboard-select:search
 URxvt*urgentOnBell:    true
 
 ! --[ URxvt - colors ]--------------------------------------
-!URxvt.background: rgba:0000/0000/0000/bbbb
+URxvt.background: rgba:0000/0000/0000/bbbb
 !URxvt.foreground:#eeeeee
 
 ! --[ Color Scheme ]----------------------------------------

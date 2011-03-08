@@ -29,5 +29,4 @@ out_to_console yes
 TEXT
 \\#D4D4D4\${mpd_smart} \\#FFFFFF\| \
 \\#AFD687\CPU: \\#729FCF\$cpu% \\#FFFFFF\| \
-\\#F52F00\${execi 300 weather.sh 60047}\\#FFFFFF\ | \
-\\#CE5C00\${execi 300 imap.py}
+\\#F52F00\${execi 300 weather.sh 60047}\\#FFFFFF\\
