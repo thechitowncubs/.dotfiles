@@ -33,8 +33,8 @@ URxvt.keysym.M-s:      perl:keyboard-select:search
 URxvt*urgentOnBell:    true
 
 ! --[ URxvt - colors ]--------------------------------------
-URxvt.background: rgba:0000/0000/0000/bbbb
-!URxvt.foreground:#eeeeee
+!URxvt.background: rgba:0000/0000/0000/bbbb
+URxvt.foreground:#FFFFFF
 
 ! --[ Color Scheme ]----------------------------------------
 !#include ".config/xcolors/dwmrob"
@@ -48,8 +48,8 @@ URxvt.background: rgba:0000/0000/0000/bbbb
 !#include ".config/xcolors/shiva"
 !#include ".config/xcolors/tango"
 !#include ".config/xcolors/zenburn"
-!#include ".config/xcolors/dadis"
-#include ".config/xcolors/dadiskush"
+!#include ".config/xcolors/dadiskush"
+#include ".config/xcolors/reason"
 ! -- [ XScreenSaver ] ------------------------------
 xscreensaver.Dialog.headingFont:        -*-droid sans-bold-r-*-*-14-*-*-*-*-*-*-*
 xscreensaver.Dialog.bodyFont:           -*-droid sans-medium-r-*-*-14-*-*-*-*-*-*-*

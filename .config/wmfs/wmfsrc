@@ -146,14 +146,15 @@
         [tag] name = "1/web"  clients = {"Browser"} [/tag] #< deprecated option but, can fuck up browser tag, yes? ok 
         [tag] name = "2/chat"  [/tag]
         [tag] name = "3/prog"  [/tag]
-        [tag] name = "4/sys"   [/tag]
-        [tag] name = "5/music" [/tag]
-        [tag] name = "6/misc" [/tag]
+        [tag] name = "4/doc"   [/tag]
+        [tag] name = "5/sys"   [/tag]
+        [tag] name = "6/music" [/tag]
+        [tag] name = "7/misc" [/tag]
 [/tags]
 
 [root]
        # Command you can execute to set the background.
-        background_command = "feh --bg-scale $HOME/Wallpapers/superman/supergirl.jpg"
+        background_command = "feh --bg-scale $HOME/Wallpapers/tiling/lotus.png"
 
         [mouse] button = "4" func = "tag_next"              [/mouse]
         [mouse] button = "5" func = "tag_prev"              [/mouse]
