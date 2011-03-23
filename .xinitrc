@@ -11,7 +11,10 @@
 xbindkeys &
 status.sh &
 setxkbmap us -option compose:ralt -option compose:caps
-exec /usr/local/bin/wmfs
+dcompmgr &
+exec wmfs
+#exec ck-launch-session startkde
+#exec ck-launch-session gnome-session
 # exec startkde
 # exec startxfce4
 # ...or the Window Manager of your choice

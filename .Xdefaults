@@ -26,14 +26,14 @@ URxvt*font: -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 ! --[ URxvt - URL/Clipboard Handling ]----------------------
 URxvt.perl-ext-common: default,url-select,keyboard-select
 URxvt.keysym.M-u:      perl:url-select:select_next
-URxvt.urlLauncher:     chromium
+URxvt.urlLauncher:     firefox-beta-bin
 URxvt.underlineURLs:   true
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keysym.M-s:      perl:keyboard-select:search
 URxvt*urgentOnBell:    true
 
 ! --[ URxvt - colors ]--------------------------------------
-!URxvt.background: rgba:0000/0000/0000/bbbb
+URxvt.background: rgba:0000/0000/0000/bbbb
 URxvt.foreground:#FFFFFF
 
 ! --[ Color Scheme ]----------------------------------------
@@ -46,10 +46,11 @@ URxvt.foreground:#FFFFFF
 !#include ".config/xcolors/rezza"
 !#include ".config/xcolors/rydgel"
 !#include ".config/xcolors/shiva"
-!#include ".config/xcolors/tango"
+#include ".config/xcolors/tango"
 !#include ".config/xcolors/zenburn"
 !#include ".config/xcolors/dadiskush"
-#include ".config/xcolors/reason"
+!#include ".config/xcolors/reason"
+
 ! -- [ XScreenSaver ] ------------------------------
 xscreensaver.Dialog.headingFont:        -*-droid sans-bold-r-*-*-14-*-*-*-*-*-*-*
 xscreensaver.Dialog.bodyFont:           -*-droid sans-medium-r-*-*-14-*-*-*-*-*-*-*

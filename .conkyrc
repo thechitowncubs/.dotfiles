@@ -23,10 +23,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-update_interval 5
+update_interval 2 
 out_to_console yes
 
 TEXT
+\\#AFD687\Vol: \\#D4D4D4\$mixer% | \
 \\#D4D4D4\${mpd_smart} \\#FFFFFF\| \
 \\#AFD687\CPU: \\#729FCF\$cpu% \\#FFFFFF\| \
 \\#F52F00\${execi 300 weather.sh 60047}\\#FFFFFF\\

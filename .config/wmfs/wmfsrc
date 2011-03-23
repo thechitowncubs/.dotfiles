@@ -10,7 +10,7 @@
         font               = "Ubuntu-8"
         raisefocus         = false
         focus_follow_mouse = true
-        opacity            = 255
+        opacity            = 230
         #ONE SHADOW on ALL ELEMENTS
         one_shadow         = true
         # focus_pointer_click: click on unfocused client area:
@@ -57,8 +57,8 @@
 [/bar]
 
 [layouts]
-        fg = "#2E3436"
-        bg = "#75858A"
+        fg = "#D4D4D4"
+        bg = "#323232"
 
         # Border around the layout button.
         border = true
@@ -106,7 +106,7 @@
 
         tag_round      = false
         tag_auto_prev  = true
-        occupied_bg    = "#606060"
+        occupied_bg    = "#323232"
         occupied_fg    = "#FFFFFF"
         sel_fg         = "#FFFFFF"
         sel_bg         = "#4A8720"
@@ -154,7 +154,7 @@
 
 [root]
        # Command you can execute to set the background.
-        background_command = "feh --bg-scale $HOME/Wallpapers/tiling/lotus.png"
+        background_command = "feh --bg-scale $HOME/Wallpapers/nature.jpg"
 
         [mouse] button = "4" func = "tag_next"              [/mouse]
         [mouse] button = "5" func = "tag_prev"              [/mouse]
@@ -227,7 +227,7 @@
                class    = "MPlayer"  # Seconf part of WM_CLASS, not needed if first part is correct
                # role = ""           # WM_WINDOW_ROLE
                screen   = 0          # Screen to use
-               tag      = 6          # Tag number of apps < so what was the problem? :P
+               tag      = 7          # Tag number of apps < so what was the problem? :P
                free     = true       # Set automatic free client
                max      = false      # Set automatic maximized client
        [/rule]

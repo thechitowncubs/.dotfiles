@@ -6,7 +6,7 @@
 PACMAN="clyde"
 
 #Exports
-export BROWSER="chromium"
+export BROWSER="firefox-beta-bin"
 export PATH="$HOME/bin:$PATH"
 
 #Aliases
@@ -20,9 +20,6 @@ alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
 alias install="sudo $PACMAN -S --noconfirm"
 alias uninstall="sudo pacman -R"
 alias sysupdate="sudo $PACMAN -Syyua --noconfirm"
-
-export BROWSER="chromium"
-export PATH="$HOME/bin:$PATH"
 
 #Functions
 Size() {
